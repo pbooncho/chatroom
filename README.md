@@ -13,9 +13,14 @@ To run the project,
 ###Database
 The database contains two separate tables, **rooms** and **messages**. these tables are created when a user accesses the homepage, or '/'. If a user tries to go directly to a room and no tables have been created, a special error page will be displayed.
 
-The **rooms** table only has 1 field: the name of the room, which is also its primary key.
+The **rooms** table only has 1 field: the name of the room (TEXT), which is also its primary key.
 
-The schema of the **messages** tables is as follows:
+The schema and example of the **messages** table follows:
+id | room | nickname | body | time
+-- | ---- | -------- | ---- | ----
+29 | myRoom | Eli | yo dudes wussupn | 1394838278
+
+
 
 
 ###Rooms
