@@ -90,9 +90,17 @@ app.get('/:roomName', function(req, resp) {
 	var isRoom = false;
 	var q = conn.query('SELECT name FROM rooms WHERE name=$1;', [req.params.roomName]);
 	q.on('row', function(row) { 
-		console.log("yeah this is a room.");
-		isRoom = true; 
-	}); //if we get here we know that the room is in the database.
+		console.log("Request for room " + req.params.roomName + " validated");
+		isRoom = true;
+	});
+	q.on('error', function() {
+		//probably the rooms table does not exist. 
+		//provide link to '/' so that table can be created
+		console.log("ERROR: database could not be queried.");
+		resp.writeHead(200, {'Content-Type': 'text/html'});
+		resp.end("<h1>Uh Oh! An error occurred.</h1> <h3><a href='/'>Click here</a> to try a restart.<h3>");
+		return;
+	});
 	q.on('end', function() {
 		if (!isRoom) { //if room does not exist, give an error.
 			resp.status(404).end("404: Not found"); //throw 404
