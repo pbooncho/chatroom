@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Have yourself a chatroom">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- store room name in meta tag: -->
+        <meta name="roomName" content="{{roomName}}">
+
+        <title>{{roomName}} chatroom</title>
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/room.css">
+
+        <!-- Scripts -->
+        <script src="/js/jquery-1.11.0.min.js"></script>
+        <script src="/js/room.js"></script>
+    </head>
+
+    <body>
+        <!-- NavBar -->
+    	<nav class="topNav">
+            <div class="navWrapper">
+            	<h1 class="roomName">{{roomName}}</h1>
+            </div>
+        </nav>
+
+        <!-- Messages & Message input -->
+        <section class="main">
+        	<section id="messageList" class="messageList">
+                <div class="msg_spacer"></div>
+        		<!-- TODO: figure out how to display messages -->
+        	</section>
+        	<form id="messageForm" class="messageForm">
+                <h1 id="nickLabel" class="nickLabel"></h1>
+        		<input type="text" name="message" id="messageField" class="messageField" required>
+        		<input type="hidden" name="nickname" id="nickField" value="">
+        		<input type="submit" value="send" class="messageSend">
+        	</form>
+        </section>
+
+        <!-- Temp overlay to pick nickname -->
+        <div id="nick_overlay" class="nick_overlay">
+            <div class="nick_prompt" id="nick_prompt">
+                <h1>Choose a name:</h1>
+                <form id="nick_form" class="nick_form">
+                    <input id="nick_input" type="text" name="nick" maxlength="16" placeholder="username" required>
+                    <input type="submit" value="go">
+                </form>
+            </div>
+        </div>
+
+
+    </body>
+</html>

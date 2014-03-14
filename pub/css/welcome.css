@@ -1,0 +1,44 @@
+.main {
+	position: relative;
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.main h1 {
+	margin: 15px 0;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.roomName {
+	height: 20px;
+	width: 150px;
+	font-size: 1.1em;
+}
+
+.instructions {
+	font-size: 1.2em;
+	margin: 10px 0;
+	line-height: 1.2em;
+}
+
+.roomErr {
+	color: #F00;
+	margin-top: 10px;
+}
+
+.alreadyExists {
+	margin-top: 15px;
+	font-size: 1.1em;
+}
+
+.badInput {
+	background-color: #fec3c4;
+	border: 1px solid #ff0000;
+}
+
+.badInput:focus {
+	outline: none;
+	border: 1px solid #ff0000;
+}

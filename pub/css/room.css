@@ -1,0 +1,173 @@
+/* ==========================================================================
+   General Styling
+   ========================================================================== */
+html {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.main {
+	position: relative;
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* ==========================================================================
+   Nav Bar
+   ========================================================================== */
+.topNav {
+	box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+	padding: 5px;
+	background: rgba(255,255,255,0.7);
+}
+
+.navWrapper {
+	position: relative;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.roomName {
+	width: 100%;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+
+/* ==========================================================================
+   Messages Area
+   ========================================================================== */
+.messageList {
+	position: absolute;
+	bottom: 87px;
+	left: 0;
+	width: 80%;
+	height: calc(100% - 90px);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-left: 45px;
+}
+
+.msg_spacer {
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+}
+
+.singleMsg {
+	line-height: 1.5em;
+	padding: 4px 0;
+	border-bottom: 1px solid #f9f9f9;
+	word-wrap: break-word;
+}
+
+.singleMsgNick {
+	font-weight: bold;
+	margin-right: 8px;
+}
+
+
+
+/*   
+for(var i = 0; i < 35; i++) {$("#messageList").append("<p>message: msg</>");}
+ */
+
+
+
+/* ==========================================================================
+   Input Area
+   ========================================================================== */
+.nickLabel {
+	position: relative;
+	top: 4px;
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bolder;
+	/* Stroke text: */
+	-webkit-text-fill-color: #FFF;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #000;
+}
+
+.messageForm {
+	position: fixed;
+	bottom: 10px;
+	width: 1024px;
+}
+
+.messageField {
+	width: 80%;
+	height: 25px;
+}
+
+.messageSend {
+	height: 25px;
+}
+
+/* ==========================================================================
+   Nickname prompt
+   ========================================================================== */
+.nick_overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.nick_prompt {
+	position: relative;
+	top: 150px;
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	z-index: 99;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.nick_prompt h1 {
+	position: relative;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 700;
+	top: 30px;
+}
+
+.nick_prompt p {
+	position: relative;
+	text-align: center;
+	color: #F00;
+	top: 80px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.nick_form {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	top: 60px;
+	text-align: center;
+}
