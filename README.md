@@ -15,7 +15,7 @@ The database contains two separate tables, **rooms** and **messages**. these tab
 
 The **rooms** table only has 1 field: the name of the room (TEXT), which is also its primary key.
 
-The schema and example of the **messages** table follows:
+The schema and an example of the **messages** table follows:
 
 id | room | nickname | body | time
 --- | ---- | ------- | ---- | ----
