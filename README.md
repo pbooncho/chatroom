@@ -24,12 +24,3 @@ There is currently no limit to how many messages will be displayed when the user
 I did not want to deal with authentication, so choosing a nickname does not require a password and does not give the user a cookie. This means that each time the page is refreshed, the user has to specify a nickname. The nickname chosen by a user of the chat does not have to be unique or conform to any constraint other than being between 3 and 16 characters (i.e. special characters and spaces are allowed for the nickname).
 
 I used
-
-
-README
-======
-Fill this file in with information on your project, along with any known bugs.
-=======
-
-
-cs132 | chatroom
