@@ -17,10 +17,9 @@ The **rooms** table only has 1 field: the name of the room (TEXT), which is also
 
 The schema and example of the **messages** table follows:
 
-| id | room | nickname | body | time |
-| -- | ---- | -------- | ---- | ---- |
-| 29 | myRoom | Eli | yo dudes wussupn | 1394838278 |
-
+id | room | nickname | body | time
+--- | ---- | ------- | ---- | ----
+29 | myRoom | Eli | yo dudes wussupn | 1394838278
 
 
 
