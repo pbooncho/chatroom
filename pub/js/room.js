@@ -14,14 +14,15 @@ $(window).load(function() {
     $("#messageForm").submit(sendMessage);
     $("#nick_form").submit(setNick);
 
-    //prevent scrolling to spacer
+/*
+    //prevent scrolling to into the spacer
     msgL = $("#messageList");
 	msgL.scroll(function(event) {
 		var st = msgL.scrollTop(),
 			h  = msgL.height();
     	if (st < h) msgL.scrollTop(h);
     });
-
+*/
     //set the timeout to start loading messages:
     startLoadingMsgs();
     //loadAllMsgs();
@@ -169,10 +170,4 @@ function pause() {
 function scrollList() {
 	var scrollAmount = $("#messageList").get(0).scrollHeight - $("#messageList").height();
 	$("#messageList").scrollTop(scrollAmount);
-}
-
-function preventUpwardScroll() {
-	var currScroll = $("#messageList").scrollTop(scrollAmount);
-	var scrollAmount = ($("#messageList").get(0).scrollHeight + 33) - $("#messageList").height();
-	return (currScroll >= scrollAmount);
 }

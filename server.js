@@ -103,9 +103,9 @@ app.get('/:roomName', function(req, resp) {
 	});
 	q.on('end', function() {
 		if (!isRoom) { //if room does not exist, give an error.
-			resp.status(404).end("404: Not found"); //throw 404
-			var msg = req.params.roomName + ' does not exist in database!';
-			console.log(msg);
+			resp.status(404).end("Error 404: room not found"); //throw 404
+			var msg = "Room '"+ req.params.roomName + "' does not exist in database!";
+			console.log(msg.red);
 		}
 		else {
 			//render chatroom for name
