@@ -51,4 +51,12 @@ When a message is submitted, the client immediately appends it to the messageLis
 There is one exception: What if the server returns the list of messages before the new message can be added to the database? In this case, the new message would be removed from the DOM, but it would not be part of the message list returned by the server. However, in this case the ```prev_msg_ID``` would be set to the ID of the message occurring just before the new message in the database. Thus, while the new message would be removed from the DOM, the user only has to wait for the next call to the server to see their new message appear in the list. This is an extremely rare case and I have yet to notice it from my testing.
 
 ---
-###
+###EXTRAS
+Some added features:
+* If you paste in a URL, the client js will attempt to convert it to a HTML link. 
+* If you paste an image url, it will attempt to convert it to an HTML image object
+* If you paste other HTML, or js, or whatever, it will attempt to convert it to an HTML-escaped string.
+* the home page displays recently active rooms.
+
+However, there is one bug with the auto-URL feature:
+If the user enters a URL and it doesn't end with a '/', it won't be converted to a link. It's a problem with my regular expression for URL matching, which is very long and complicated. This issue has been logged.
