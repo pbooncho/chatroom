@@ -55,15 +55,16 @@ app.get('/', function(req, resp) {
 
 app.get('/recentRooms.json', function(req, resp) {
 	console.log('- Request received:', req.method.cyan, req.url.underline);
-
+	var data = {recentRooms: []};
 	//get all rooms active within last 5 min:
 	var q = conn.query("SELECT DISTINCT room FROM messages WHERE time >= strftime('%s', 'now') - 300;");
 	q.on('row', function(row) {
 		console.log("The returned row object:", row);
+		data.recentRooms.push(row.room); //TODO: only need room's string name
 	});
 	q.on('end', function() {
-		console.log('Finished searching'.cyan);
-		//TODO: return list of recent rooms in JSON obj
+		console.log('Finished searching for recent rooms'.cyan);
+		resp.json(data);
 	});
 });
 

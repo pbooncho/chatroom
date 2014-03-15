@@ -11,6 +11,10 @@
 	font-weight: 700;
 }
 
+.creationDiv {
+	float: left;
+}
+
 .roomName {
 	height: 20px;
 	width: 150px;
@@ -41,4 +45,16 @@
 .badInput:focus {
 	outline: none;
 	border: 1px solid #ff0000;
+}
+
+.recentRooms {
+	float: right;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.recentRooms ul li {
+	padding: 5px; 
+	margin-right: 10px;
 }

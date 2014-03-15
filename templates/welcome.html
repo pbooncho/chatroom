@@ -18,7 +18,7 @@
     <body>
     	<section id="main" class="main">
     		<h1>Welcome!</h1>
-    		<div>
+    		<div id="creationDiv" class="creationDiv">
     			<p class="instructions">
     				Enter a name for your new chat room, <br>
     				or leave it blank to create a random room name.
@@ -28,6 +28,12 @@
     				<input type="submit" value="Create">
     			</form>
     		</div>
+            <div id="recentRooms" class="recentRooms">
+                <h3 id="recentRoomTitle">Active Rooms:</h3>
+                <ul id="recentList">
+                <!-- Recent rooms will be displayed here -->
+                </ul>
+            </div>
     	</section>
     </body>
 </html>

@@ -41,7 +41,8 @@ function sendMessage(e) {
 	var msgInput = $("#messageField"),
 		msgData = {};
 
-	msgData.message = msgInput.val();
+	var unsafe = msgInput.val();
+	msgData.message = toMsgString(unsafe);
 	msgInput.val(""); //immediately remove text from input
 	msgData.nickname = $("#nickField").val();
 
@@ -171,3 +172,32 @@ function scrollList() {
 	var scrollAmount = $("#messageList").get(0).scrollHeight - $("#messageList").height();
 	$("#messageList").scrollTop(scrollAmount);
 }
+
+function toMsgString(unsafe) {
+	var url_regex = /^(http|https)\:\/\/[\w\d\-_]+(\.[\w\d\-_]+)+([\w\-\.,@?^=%&amp;\:\/~\+#]*[\w\-\@?^=%&amp;\/~\+#])?/; //url matching regex i found 
+	var url_arr = unsafe.match(url_regex); //test if its a url
+	
+	if (url_arr) {
+		if (url_arr[url_arr.length-1].match(/(.png|.gif|.jpeg|.jpg)/)) {
+			//it's an image!
+			return "<img src='" + unsafe + "'>";
+		} else {
+			//its just a url
+			return "<a href='" + unsafe + "'>" + unsafe + "</a>";
+		}
+	} 
+
+	else {
+		//it's not a URL. convert it to an HTML-escaped string
+		return escapeHtml(unsafe);
+	}
+}
+
+function escapeHtml(unsafe) {
+    return unsafe
+         .replace(/&/g, "&amp;")
+         .replace(/</g, "&lt;")
+         .replace(/>/g, "&gt;")
+         .replace(/"/g, "&quot;")
+         .replace(/'/g, "&#039;");
+ }

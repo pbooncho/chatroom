@@ -4,6 +4,15 @@
  */
 $(window).load(function() {
     $("#roomForm").submit(createNewRoom);
+
+    //get recent rooms:
+    $.get('/recentRooms.json', function(data) {
+        if (data.recentRooms.length > 0)
+            displayRecentRooms(data.recentRooms);
+        else 
+            noRecentRooms();
+    });
+
 });
 
 
@@ -37,9 +46,9 @@ function createNewRoom(e) {
 		} else { //unacceptable room Name
             $("#roomName").addClass('badInput');
             if (givenName.length < 3 || givenName.length > 24)
-                $("#main").append("<p class='roomErr'>The roomname must be between 3 and 24 characters.</p>");
+                $("#creationDiv").append("<p class='roomErr'>The roomname must be between 3 and 24 characters.</p>");
             else
-                $("#main").append("<p class='roomErr'>The roomname cannot contain punctuation or special characters.<br>Alphanumeric characters or - _ + only.</p>");
+                $("#creationDiv").append("<p class='roomErr'>The roomname cannot contain punctuation, special characters, or spaces.<br>Alphanumeric characters or - _ + only.</p>");
 		}
 	}
     //now we have a valid room name, check if it's in the database:
@@ -49,7 +58,7 @@ function createNewRoom(e) {
             if (data.roomExists) { //check if room already exists
                 console.log("Room already exists!!");
                 $("#roomName").addClass('badInput');
-                $("#main").append("<p class='alreadyExists'> <a href='/" + roomName + "'>" + roomName + "</a> is already a room!</p>");
+                $("#creationDiv").append("<p class='alreadyExists'> <a href='/" + roomName + "'>" + roomName + "</a> is already a room!</p>");
             } else {
                 window.location.href = "/"+roomName;
             }
@@ -70,4 +79,17 @@ function generateRoomID() {
         result += chars.charAt(Math.floor(Math.random() * chars.length));
     }
     return result;
+}
+
+
+function displayRecentRooms(roomList) {
+    for (var i = 0; i < roomList.length; i++) {
+        var room = roomList[i];
+        var str = "<li><a href='/"+room+"'>"+ room + "</a></li>";
+        $("#recentList").append(str);
+    }
+}
+
+function noRecentRooms() {
+    $("#recentRoomTitle").text("No active rooms :(");
 }
