@@ -21,7 +21,7 @@ id | room | nickname | body | time
 --- | ---- | ------- | ---- | ----
 29 | myRoom | Eli | yo dudes wussupn | 1394838278
 
-
+---
 ###Rooms
 ####Creation & acceptable naming conventions
 Rooms are created from the home page ('/'). On the homepage there is an input box that allows the user to choose a name for their new chatroom. If that field is left blank, a random chatroom name is generated. Submittted room names must be between 3 and 24  characters, and can only contain Alphanumeric characters, _, -, and +. If the given room name does not match this requirement, an error is displayed to the user and they are asked to change their input. Additionally, if the room name is already contained in the **rooms** database table, a message is displayed to the user providing them with a link to the existing chatroom.
@@ -35,7 +35,7 @@ When the user enters a chatroom they are prompted to enter a nickname. I did not
 ####Refreshing
 I used AJAX to load new messages to the rooms. More about that below.
 
-
+---
 ###Messages
 ####Message-Grabbing
 Messages are grabbed from the database every .5 seconds. I like the responsiveness of this interval. In order to lessen the strain of the process of loading chatroom messages, I have a global variable on the client-side called ```prev_msg_ID```. This variable is initialized to 0. Once messages are retrieved and displayed, the client sets ```prev_msg_ID``` to the ID of the most recent message retrieved. This enables the client to ask for only the most recent messages from the server rather than a complete list. When the client asks for the most recent messages, it does a POST instead of a GET in order to send along the ```prev_msg_ID``` variable. The server then uses this variable to select only the messages whose id's are greater than this ```prev_msg_ID``` number. Thus only a list of messages occuring after the most recent message are fetched, and the client can simply loop through the returned list of messages, appending each one to the message list.
@@ -50,3 +50,5 @@ When a message is submitted, the client immediately appends it to the messageLis
 
 There is one exception: What if the server returns the list of messages before the new message can be added to the database? In this case, the new message would be removed from the DOM, but it would not be part of the message list returned by the server. However, in this case the ```prev_msg_ID``` would be set to the ID of the message occurring just before the new message in the database. Thus, while the new message would be removed from the DOM, the user only has to wait for the next call to the server to see their new message appear in the list. This is an extremely rare case and I have yet to notice it from my testing.
 
+---
+###
