@@ -1,0 +1,1269 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"startt",
+				"starttime"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pop",
+				"populateCalendar"
+			],
+			[
+				"start",
+				"starttime"
+			],
+			[
+				"endtime",
+				"endtime"
+			],
+			[
+				"get",
+				"getHours"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"eventD",
+				"event_data"
+			],
+			[
+				"event",
+				"event_title"
+			],
+			[
+				"group",
+				"groupID"
+			],
+			[
+				"inser",
+				"insertNewEvent"
+			],
+			[
+				"end",
+				"endTime"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"event_",
+				"event_tags"
+			],
+			[
+				"each",
+				"each	$.each()"
+			],
+			[
+				"req",
+				"req_data"
+			],
+			[
+				"num",
+				"num_days_this_month"
+			],
+			[
+				"first",
+				"first_of_month"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"getD",
+				"getDate"
+			],
+			[
+				"upda",
+				"updateCalDates"
+			],
+			[
+				"day",
+				"day_diff"
+			],
+			[
+				"view",
+				"view_selecter"
+			],
+			[
+				"html",
+				"html	.html"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"cli",
+				"click	click"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"marign",
+				"margin"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"close",
+				"closeEventPane"
+			],
+			[
+				"event_t",
+				"event_title"
+			],
+			[
+				"calendar",
+				"calendar_view"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"new",
+				"new_event"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"java",
+				"javaThing"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"ar",
+				"attr	.attr() - single"
+			],
+			[
+				"wi",
+				"weight"
+			],
+			[
+				"art",
+				"article	Tag"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"ligh",
+				"lighten	sass_function"
+			],
+			[
+				"con",
+				"contact"
+			],
+			[
+				"about",
+				"about"
+			],
+			[
+				"sin",
+				"single-transition	compass"
+			],
+			[
+				"box-",
+				"box-shadow	compass"
+			],
+			[
+				"scroll",
+				"scrollAmount"
+			],
+			[
+				"anima",
+				"animate	animate"
+			],
+			[
+				"anim",
+				"animate	.animate() with callback"
+			],
+			[
+				"scr",
+				"scrollLeft	.scrollLeft()"
+			],
+			[
+				"overfl",
+				"overflow-x"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"scrol",
+				"scrollAmount"
+			],
+			[
+				"sc",
+				"scrollLeft	.scrollLeft()"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"fnu",
+				"function"
+			],
+			[
+				"fa",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"fade",
+				"fadeToggle	.fadeToggle()"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"to",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"w",
+				"width	.width"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"tog",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bord",
+				"border-right-radius	compass"
+			],
+			[
+				"coms",
+				"com-section	Idiomatic CSS - Section Comment Block"
+			],
+			[
+				"single",
+				"single-box-shadow	compass"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"transition",
+				"transition-duration	compass"
+			],
+			[
+				"col",
+				"collapse"
+			],
+			[
+				"nav",
+				"nav	Tag"
+			],
+			[
+				"com-s",
+				"com-section	Idiomatic CSS - Section Comment Block"
+			],
+			[
+				"_title",
+				"_title_interval"
+			],
+			[
+				"Co",
+				"Cohen"
+			],
+			[
+				"Ma",
+				"Martínez"
+			],
+			[
+				"M",
+				"Martínez"
+			],
+			[
+				"El",
+				"Elías"
+			],
+			[
+				"curr",
+				"currRow"
+			],
+			[
+				"nex",
+				"nextNode"
+			],
+			[
+				"recursive",
+				"recursiveLEDSearch"
+			],
+			[
+				"sugge",
+				"suggestionNodes"
+			],
+			[
+				"for",
+				"fore	for (each)"
+			],
+			[
+				"sugg",
+				"suggestionNodes"
+			],
+			[
+				"is",
+				"isWord"
+			],
+			[
+				"edit",
+				"edit_dist"
+			],
+			[
+				"prev",
+				"prevRow"
+			],
+			[
+				"word",
+				"wordLength"
+			],
+			[
+				"wrd",
+				"wordLength"
+			],
+			[
+				"recurs",
+				"recursiveLEDSearch"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"trn",
+				"transparent"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"AutoCo",
+				"AutocorrectOptions"
+			],
+			[
+				"Boggle",
+				"BoggleBoard"
+			],
+			[
+				"boa",
+				"board_size"
+			],
+			[
+				"Bo",
+				"BoggleDict"
+			],
+			[
+				"star",
+				"start_y"
+			],
+			[
+				"board",
+				"board_array"
+			],
+			[
+				"str",
+				"String"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"scro",
+				"scrolling"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"coso",
+				"console"
+			],
+			[
+				"u",
+				"underline"
+			],
+			[
+				"diff",
+				"diff_acct"
+			],
+			[
+				"beta",
+				"beta_button"
+			],
+			[
+				"bot",
+				"bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 5976,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 246,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Default Ant Build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"brack",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enabl",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"disa",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"enable",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"choose ma",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"Sublime",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pack li",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"schem",
+				"Schemr: List all schemes"
+			],
+			[
+				"sch",
+				"Schemr: List all schemes"
+			],
+			[
+				"view",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pakc",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: for",
+				"Snippet: For Loop"
+			],
+			[
+				"Snippet: ",
+				"Snippet: For Loop"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: HTML - Include jQuery"
+			],
+			[
+				"Snippet: jqu",
+				"Snippet: HTML - Include jQuery"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"help",
+			"info",
+			"ls",
+			"cd",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Eli/school/cs132/homies/client/templates/calendar_views/month.html",
+		"/Users/Eli/school/cs132/homies/client/templates/calendar_views/week.html",
+		"/Users/Eli/school/cs132/homies/client/templates/homepage.html",
+		"/Users/Eli/school/cs132/homies/client/public/js/homepage.js",
+		"/Users/Eli/school/cs132/homies/README",
+		"/Users/Eli/school/cs132/homies/client/templates/calendar.html",
+		"/Users/Eli/school/cs032/CS032_Maps/bin/client",
+		"/Users/Eli/school/cs032/CS032_Maps/bin/server",
+		"/Users/Eli/school/cs032/CS032_Maps/bin/cs032_traffic_bot",
+		"/Users/Eli/Sites/eliasmartinezcohen/www/resume/index.html",
+		"/Users/Eli/Sites/eliasmartinezcohen/www/eliasmartinezcohen.com.sublime-project",
+		"/Users/Eli/Sites/eliasmartinezcohen/www/css/sass/screen.scss",
+		"/Users/Eli/school/cs132/assignment1_html/README",
+		"/Users/Eli/Desktop/www/css/sass/screen.scss",
+		"/Users/Eli/Desktop/www/sass/screen.scss",
+		"/Users/Eli/Desktop/www/sass/_base.scss",
+		"/Users/Eli/madbits/gramcat.io/sass/_base.scss",
+		"/Users/Eli/madbits/gramcat.io/sass/screen.scss",
+		"/Users/Eli/Desktop/emc[DOT]com/www/config.rb",
+		"/Users/Eli/Desktop/emc[DOT]com/www/index.html",
+		"/Users/Eli/Desktop/emc[DOT]com/www/js/main.js",
+		"/Users/Eli/Desktop/emc[DOT]com/www/css/sass/ie.scss",
+		"/Users/Eli/Desktop/emc[DOT]com/www/css/sass/_base.scss",
+		"/Users/Eli/Desktop/emc[DOT]com/www/css/sass/screen.scss",
+		"/Users/Eli/Desktop/emc[DOT]com/www/css/sass/print.scss",
+		"/Users/Eli/Desktop/emc[DOT]com/www/css/style.css",
+		"/Users/Eli/Sites/eliasmartinezcohendotcom/h/e/l/l/o/index.html",
+		"/Users/Eli/Desktop/emc[DOT]com/index.html",
+		"/Users/Eli/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Eli/Library/Containers/it.bloop.airmail/Data/Library/Application Support/Airmail/General/Tmp/autocorrect-rubric.txt",
+		"/Users/Eli/school/cs032/autocorrect/data/test.txt",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/D2914B73-F83D-4AC1-8390-5395006CC2CD/AutocEngine.java",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/5752DFBA-E831-445F-88C0-B5E792BCAFB8/Trie.java",
+		"/Users/Eli/school/cs132/assignment1_html/CS132_assignment1.sublime-project",
+		"/Users/Eli/school/cs132/assignment1_html/css/style_base.css",
+		"/Users/Eli/school/cs132/assignment1_html/appstack.html",
+		"/Users/Eli/school/cs032/autocorrect/data/chillen ham!",
+		"/Users/Eli/school/cs132/assignment1_html/images/navigation.png",
+		"/Users/Eli/school/autc copy/build.xml",
+		"/Users/Eli/school/cs032/boggle/src/Boggle.java",
+		"/Users/Eli/school/cs032/boggle/README.txt",
+		"/Users/Eli/school/cs032/boggle/build.xml",
+		"/Users/Eli/school/cs032/boggle/bin/boggle",
+		"/Users/Eli/Documents/old Brown/cs033/database/README",
+		"/Users/Eli/school/cs032/autocorrect_sublime/autocorrect",
+		"/Users/Eli/school/cs032/autocorrect_sublime/build.xml",
+		"/Users/Eli/school/cs032/autocorrect_sublime/autocorrect.sublime-project",
+		"/Users/Eli/school/cs032/autocorrect_sublime/src/Options.java",
+		"/Users/Eli/school/cs032/autocorrect_sublime/src/App.java",
+		"/Users/Eli/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/Users/Eli/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/Users/Eli/school/cs32/boggle/src/BoggleDict.java",
+		"/Users/Eli/school/cs32/autocorrect/test.txt",
+		"/Users/Eli/school/cs32/autocorrect/src/ArgumentChecker.java",
+		"/Users/Eli/school/cs32/autocorrect/autocorrect.sublime-project",
+		"/Users/Eli/school/cs32/autocorrect/build.xml",
+		"/Users/Eli/school/cs32/autocorrect/src/AutocorrectOptions.java",
+		"/Users/Eli/school/cs32/autocorrect/src/App.java",
+		"/Users/Eli/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/Eli/school/cs32/autocorrect/autocorrect/AutocorrectOptions.java",
+		"/Users/Eli/school/cs32/autocorrect/autocorrect/App.java",
+		"/Users/Eli/school/cs32/autocorrect/bin/autocorrect",
+		"/Users/Eli/school/cs32/autocorrect/autocorrect",
+		"/Users/Eli/school/cs32/autocorrect/App.java",
+		"/Users/Eli/school/cs32/boggle/src/BoggleWindow.java",
+		"/Users/Eli/Documents/intellij-13-keygen/keygen.java",
+		"/Users/Eli/Sites/madbits.com/mobile.html",
+		"/Users/Eli/Sites/madbits.com/js/madscroll.js",
+		"/Users/Eli/Sites/madbits.com/index.html",
+		"/Users/Eli/Sites/madbits.com/css/mobile.css",
+		"/Users/Eli/Sites/madbits.com/css/render.css",
+		"/Users/Eli/madbits/gramcat.io/index.html",
+		"/Users/Eli/madbits/gramcat.io/mobile.html",
+		"/Users/Eli/madbits/gramcat.io/info.html",
+		"/Users/Eli/madbits/gramcat.io/css/medium.css",
+		"/Users/Eli/madbits/gramcat.io/css/small.css",
+		"/Users/Eli/madbits/gramcat.io/css/new_nav.css",
+		"/Users/Eli/madbits/gramcat.io/info1.html",
+		"/Users/Eli/madbits/gramcat.io/css/iphone.css",
+		"/Users/Eli/madbits/gramcat.io/css/embed_DIN.css",
+		"/Users/Eli/madbits/gramcat.io/index2.html",
+		"/Users/Eli/Downloads/NightLion.itermcolors",
+		"/Users/Eli/Library/Application Support/Sublime Text 3/Packages/Color Scheme - Default/All Hallow's Eve.tmTheme",
+		"/Users/Eli/madbits/gramcat.io/css/small",
+		"/Users/Eli/Downloads/Swipe-master/index.html",
+		"/Users/Eli/madbits/gramcat.io/css/style.css",
+		"/Users/Eli/madbits/gramcat/www/scss/screen.scss",
+		"/Users/Eli/Desktop/untitled.svg",
+		"/Users/Eli/madbits/gramcat/www/server.js",
+		"/Users/Eli/madbits/ckoiagram/deploy",
+		"/Users/Eli/Downloads/dp-SublimeText2.icns",
+		"/Users/Eli/Documents/app_store_pw",
+		"/Users/Eli/Documents/app_store_pass",
+		"/Users/Eli/Documents/solarized/README.md",
+		"/Users/Eli/madbits/ckoia.mobile/export-ios",
+		"/Users/Eli/school/cs033/database/db.c",
+		"/Users/Eli/school/cs033/database/server.c",
+		"/Users/Eli/Downloads/xpdf-3.03/INSTALL",
+		"/Users/Eli/school/cs033/database/README2",
+		"/Users/Eli/school/cs033/database/examples/ex_server.c",
+		"/Users/Eli/school/cs033/database/examples/ex_db.c",
+		"/Users/Eli/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/Eli/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/Eli/school/Graphic Design for the Web/Kim's Selfies/web/index.html",
+		"/Users/Eli/school/Graphic Design for the Web/Kim's Selfies/web/style.css",
+		"/Users/Eli/school/Graphic Design for the Web/Kim's Selfies/web/js/main.js",
+		"/Users/Eli/school/cs033/database/list_of_pairs.txt",
+		"/Users/Eli/school/cs033/database/examples/knicks_test.txt",
+		"/Users/Eli/school/cs033/database/examples/clippers_test.txt",
+		"/Users/Eli/school/cs033/database/README",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/D8C50AD8-CAC5-4A5C-88C6-CA8B2F457B8A/server.c",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/0237D1E9-805B-4F87-BBD5-A5DF7DE8E2E7/db.c",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/AA642E11-E283-4F25-86B6-28FBB9961EA5/db.c",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/20902ABA-C22E-47F4-9513-E46711DA684F/window.c",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/5EE2A491-C9F5-4287-A79D-B3357B86927D/window.c",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/AA0AC7B6-6D2B-4ED7-A56B-B3632369FBB1/server.c",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/A0231B0A-22FA-46A8-953B-FC8C7DDDDE3B/db.c",
+		"/Users/Eli/school/cs033/database/window.c",
+		"/Users/Eli/school/cs033/database/window.h",
+		"/Users/Eli/school/cs033/database/db.h",
+		"/Users/Eli/Library/Application Support/Sublime Text 3/Packages/User/for-(C).sublime-snippet",
+		"/Users/Eli/Library/Application Support/Sublime Text 3/Packages/User/read-(C)",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/E8CD60A7-507D-4A15-9027-EEB790E4B57A/writeup.pdf",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/2FD528D8-3EDF-421C-A044-7579151FF863/index.html",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/91D3E73E-79C4-445C-8F1A-3DE4B20EF969/main.js",
+		"/Users/Eli/Library/Caches/Cleanup At Startup/Transmit/A69E3A44-1B0B-45F0-91BE-288D2D743FD4/style.css",
+		"/Users/Eli/school/Graphic Design for the Web/virtual_slots/slotz/script.js",
+		"/Users/Eli/school/Graphic Design for the Web/Kim's Selfies/web/notes"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"date_num",
+			"</td>",
+			"size=\"10",
+			"li",
+			"group",
+			"-",
+			"_",
+			"<br>",
+			"#contact p, #contact h3",
+			"#about p, #about h3",
+			"about",
+			"#000",
+			"40px",
+			"{\n",
+			"_title",
+			"_",
+			"nav_",
+			"id=\"",
+			"-webkit-linear-gradient",
+			"\n#",
+			"whitespace",
+			"led",
+			"public",
+			"style",
+			"AutocorrectOptions",
+			"&",
+			"500",
+			"scrolling=false;",
+			"scrolling=false",
+			"<a ",
+			"<a>",
+			"<a",
+			"#959595",
+			"6px",
+			"e",
+			"whitesmoke",
+			"background-size: cover;",
+			"background-size",
+			"div",
+			"#c6cad1",
+			"#eeeeee",
+			"#313037",
+			"#3e4145",
+			"#dbdbdb",
+			"#26252a",
+			"#25242a",
+			"424447",
+			"}\n",
+			"load",
+			"madbits",
+			"entry_box_new",
+			"#201f24",
+			"#1e1e22",
+			"#19191c",
+			"#2a2b30",
+			"25262c",
+			"2e3135",
+			";\n",
+			"-45",
+			"#dbdbdb",
+			"#626262",
+			"aside",
+			"div",
+			"aside",
+			"9",
+			"4",
+			"3",
+			"#424242",
+			"2",
+			"1",
+			"h3",
+			"div",
+			"url(\"",
+			"td wid",
+			"td align=\"center\" width=\"650\"",
+			"<h1",
+			"<td",
+			"<td>",
+			"td",
+			"body",
+			"CHUNK",
+			"window_new || window_delete",
+			"window_new",
+			"//enable_cancel",
+			"//disable_cancel",
+			"barrier",
+			"remove_",
+			"remove",
+			"*",
+			"lock(",
+			" lock(",
+			"coarse",
+			", db->root",
+			"db->root",
+			"lock(",
+			"lock(W",
+			"lock(R",
+			"lock(",
+			"search",
+			"search(",
+			"*",
+			"rwlock_ini",
+			"l_read",
+			"r ",
+			"r",
+			"R",
+			"r",
+			"R",
+			"r",
+			"r ",
+			"	",
+			"cond_lock",
+			"cond_mutex",
+			"C\n *\n ",
+			"B\n *\n ",
+			"*",
+			"\n ",
+			" (",
+			"\n ",
+			"&",
+			"* & *",
+			"&",
+			"NULL",
+			"db",
+			"get_comman",
+			"client",
+			"thread_counter",
+			"exec"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/Solarized (light) (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/Solarized (light) (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 193.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "cs132_chatroom.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"scree",
+				"scss/screen.scss"
+			],
+			[
+				"",
+				"database/server.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"el",
+				"~/Sites/eliasmartinezcohen/www/eliasmartinezcohen.com.sublime-project"
+			],
+			[
+				"",
+				"~/school/cs032/autocorrect_sublime/autocorrect.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"desc",
+				"description"
+			]
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
