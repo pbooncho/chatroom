@@ -15,8 +15,9 @@
         <link rel="stylesheet" href="/css/room.css">
 
         <!-- Scripts -->
-        <script src="/js/jquery-1.11.0.min.js"></script>
-        <script src="/js/room.js"></script>
+        <script src="/js/jquery-1.11.0.min.js"></script> <!-- jquery -->
+        <script src="/socket.io/socket.io.js"></script> <!-- socket.io -->
+        <script src="/js/room.js"></script>             <!-- main script for page -->
     </head>
 
     <body>
@@ -32,10 +33,12 @@
         	<section id="messageList" class="messageList">
         		<!-- messages get displayed here -->
         	</section>
+            <aside id="userlist" class="userlist">
+                <!-- Active users will be added here -->
+            </aside>
         	<form id="messageForm" class="messageForm">
                 <h1 id="nickLabel" class="nickLabel"></h1>
         		<input type="text" name="message" id="messageField" class="messageField" required>
-        		<input type="hidden" name="nickname" id="nickField" value="">
         		<input type="submit" value="send" class="messageSend">
         	</form>
         </section>
