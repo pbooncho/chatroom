@@ -66,5 +66,3 @@ Some added features:
 * If you paste other HTML, or js, or whatever, the server will attempt to convert it to an HTML-escaped string.
 * the home page displays recently active rooms.
 
-However, there is one bug with the auto-URL feature:
-If the user enters a URL and it doesn't end with a '/', it won't be converted to a link. It's a problem with my regular expression for URL matching, which is very long and complicated. This issue has been logged.
