@@ -21,7 +21,7 @@ var http = require('http'),
 	server = http.createServer(app);
 
 //now add socket.io
-var io = require('socket.io').listen(server);
+var io = require('socket.io')(server);
 io.set('log level', 1); //debug mode off
 
 //json, urlencoded, multipart middleware:

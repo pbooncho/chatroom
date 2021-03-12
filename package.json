@@ -3,12 +3,12 @@
 	"description": "A web-based chatroom server.",
 	"version": "0.1.0",
 	"dependencies": {
-		"express": "3.0.x",
 		"any-db": "0.3.x",
-		"hogan.js": "2.0.x",
-		"consolidate": "0.7.x",
-		"sqlite3": "2.1.x",
 		"colors": "*",
-		"socket.io": "0.9.x"
+		"consolidate": "0.7.x",
+		"express": "^4.17.1",
+		"hogan.js": "2.0.x",
+		"socket.io": "^4.0.0",
+		"sqlite3": "2.1.x"
 	}
 }
